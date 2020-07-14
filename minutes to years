@@ -1,0 +1,21 @@
+package minutes;
+
+public class Years {
+
+	public static void main(String[] args) {
+	int a=3456789;
+	int x,y,s,d;
+	s=a/60;
+	y=s/24;
+	x=y/365;
+    d=y%365;
+    System.out.println("NO OF MINUTES IS "+a);
+	
+	System.out.println("NO OF YEARS IS "+x);
+	System.out.println("NO OF Days IS "+d);
+	
+	
+	
+	}
+
+}
